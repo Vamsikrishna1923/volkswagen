@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add products</title>
+</head>
+<body>
+<style>
+body{
+	background-image: url('https://imgd.aeplcdn.com/664x374/cw/ec/22548/Volkswagen-Passat-Headlamps-135233.jpg?wm=0&q=80.jpg');
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-size: cover; 
+}
+form{
+		font-size: 25px;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    	text-align: center;
+    	color: black;
+    	margin-top:  0;
+}
+h1{
+		font-size: 36px;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    	text-align: center;
+    	color: black;
+    	margin-top:  0;
+}
+h3{
+		font-size: 36px;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    	text-align: center;
+    	color: black;
+    	margin-top:  0;
+}    	
+</style>
+<h1 align = "center">New Car Models Unlocked</h1><br><br>
+<h3>Please key in the details</h3>
+
+<form action = "CreatereadServlet" method = "post">
+<span>ModelName: </span>
+<input type = "text" name = "modelName">
+<span>Price: </span>
+<input type = "text" name = "price">
+<span>FuelType:</span>
+<input type = "text" name = "fueltype"> 
+<span>SafetyRating: </span>
+<input type = "text" name = "safetyrating">
+<br>
+<button><input type = "submit" value = "submit"></button>   
+
+</form>
+<br><br><br>
+<div class="bottom-bar"></div>
+<div class="bottom-left-content">
+    <button><a href ="Index.html">Back to HomePage</button>
+</div>
+</body>
+</html>

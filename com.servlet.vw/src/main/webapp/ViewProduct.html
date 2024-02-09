@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>View by ModelName!</title>
+</head>
+<body>
+<style>
+body{
+	background-image: url('https://cdn.pixabay.com/photo/2014/09/08/04/36/vw-438825_640.jpg');
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-size: cover; 
+}
+form{
+		font-size: 25px;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    	text-align: left;
+    	color: white;
+    	margin-top:  0;
+}
+h2{
+		font-size: 36px;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    	text-align: center;
+    	color: white;
+    	margin-top:  0;
+}
+</style>
+<h2>Please Enter your Desire Volkswagen Model Name to fetch the Result</h2><br><br>
+<form action ="CreatereadServlet" method ="get">
+Model Name to be Searched: 
+<input type= "text" name ="modelName">
+<br>
+<button><input type = "submit" value = "submit"></button>
+
+
+</form><br><br><br>
+<div>
+<button><a href ="Index.html">Back to HomePage</a></button>
+</div>
+</body>
+</html>
