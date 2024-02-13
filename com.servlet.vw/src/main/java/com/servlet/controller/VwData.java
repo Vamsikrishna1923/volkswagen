@@ -35,7 +35,7 @@ public class VwData extends HttpServlet{
 		out.print("<button>");
 		out.print("<a href = 'VwServlet'>Data</a>");
 		out.print("</button>");
-		out.print("</table></body><html>");
+		out.print("</table></body></html>");
 	}
 	
 	

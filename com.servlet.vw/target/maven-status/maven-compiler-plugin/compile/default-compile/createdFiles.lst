@@ -1,0 +1,8 @@
+com\servlet\controller\FetchServlet.class
+com\servlet\implementation\Implementation.class
+com\servlet\controller\CreatereadServlet.class
+com\servlet\controller\VwData.class
+com\servlet\encapsulated\Volkswagenentity.class
+com\servlet\jdbc\Jdbc.class
+com\servlet\controller\DeleteUpdateServlet.class
+com\servlet\controller\VwServlet.class

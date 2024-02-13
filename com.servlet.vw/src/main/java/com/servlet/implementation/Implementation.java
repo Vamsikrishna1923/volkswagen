@@ -94,8 +94,30 @@ public class Implementation {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return listproduct;
+		return listproduct;	
+		
+	}
 	
+	//delete 
+	public int delete(Volkswagenentity volkswagen) {
+		int result = 0;
+		String query = "delete from vans where modelName = '"+volkswagen.getModelName()+"';";
+		
+		try {
+			state = connect.createStatement();
+			result = state.executeUpdate(query);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return result;
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
