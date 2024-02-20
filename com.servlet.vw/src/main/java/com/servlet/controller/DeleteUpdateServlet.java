@@ -41,7 +41,7 @@ public class DeleteUpdateServlet extends HttpServlet{
 			failed.forward(request, response);
 		}
 	}
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		System.out.println("Post Triggered");
 		
@@ -50,7 +50,7 @@ public class DeleteUpdateServlet extends HttpServlet{
 		int id = 0;
 		try {
 			id = Integer.parseInt(price);
-		}catch(Exception e) {
+		}catch(Exception e){
 			id = 0;
 		}
 		String fueltype = request.getParameter("fueltype");

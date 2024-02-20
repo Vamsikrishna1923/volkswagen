@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Page</title>
+</head>
+<body>
+<style>
+body{
+	background-image: url('https://assets.volkswagen.com/is/image/volkswagenag/hp-taigun-500x500-1?Zml0PWNyb3AlMkMxJndpZD01MDAmaGVpPTUwMCZmbXQ9anBlZyZxbHQ9NzkmYmZjPW9mZiY4Y2Uy.jpg');
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-size: 100%; 
+}
+form{
+		font-size: 25px;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    	text-align: left;
+    	color: blue;
+    	margin-top:  0;
+}
+h2{
+		font-size: 40px;
+    	font-weight: bold;
+    	margin-bottom: 0;
+    	text-align: center;
+    	color: black;
+    	margin-top:  0;
+}
+</style>
+<form action = "DeleteUpdateServlet" method = "Post">
+<h2>Please Enter the Updated Details</h2>
+<br>
+
+<div>
+<span>Updated Price:</span>
+<input type = "text" name = "price">
+<span>Updated FuelType</span>
+<input type = "text" name = "fueltype">
+</div>
+<br>
+<div>
+<span>Please enter the model Name to update above records: </span>
+<input type = "text" name = "modelName">
+<input type = "submit" ,value = "submit">
+</div>
+<button><a href = "Index.html">Homepage></button>
+<br>
+<button><a href = "Addproduct.html">Add Product</button>
+
+</form>
+</body>
+</html>

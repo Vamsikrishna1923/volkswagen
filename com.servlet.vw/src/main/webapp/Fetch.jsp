@@ -47,6 +47,11 @@ for(Volkswagenentity a : entity){
 <% } } %>
 <br>
 <tr><td><button><a href="Index.html">Back to Homepage</a></button></td></tr>
+
+<tr><td><button><a href = "Addproduct.html">Add Product</button></td></tr>
+<tr><td><button><a href = "ViewProduct.html">View Product</button></td></tr>
+<tr><td><button><a href = "Removeproduct.html">Remove Product</button></td></tr>
+
 </table>
 </body>
 </html>

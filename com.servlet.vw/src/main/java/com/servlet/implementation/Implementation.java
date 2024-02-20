@@ -111,18 +111,27 @@ public class Implementation {
 			e.printStackTrace();
 		}
 		return result;
+	
+		
+	}
+	//update
+	public int update(Volkswagenentity entity) {
+		int result = 0;
+		String query = "update vans set price =? , fueltype =? where modelName = ?";
+		try {
+			prep=connect.prepareStatement(query);
+			prep.setInt(1, entity.getPrice());
+			prep.setString(2, entity.getFueltype());
+			prep.setString(3, entity.getModelName());
+			result = prep.executeUpdate();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		return result;
 		
 		
 	}
